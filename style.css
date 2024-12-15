@@ -3,9 +3,13 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body {
+main {
     justify-self: center;
     max-width: 500px;
+    background-color: rgb(236, 141, 107);
+    border: black 5px solid;
+    padding: 20px 40px;
+    border-radius: 60px;
 
 }
 
@@ -19,7 +23,7 @@ body {
 }
 
 h1 { justify-self: center;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 h2 {
@@ -54,4 +58,26 @@ h2 {
 
 #result {
     justify-self: center;
+    color: red;
+}
+
+#winner {
+    justify-self: center;
+    padding: 20px;
+}
+
+#score {
+    justify-self: center;
+}
+
+
+#resetdiv {
+    justify-self: center;
+    margin: 20px
+}
+#reset {
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(184, 214, 184);
+    border-radius: 50px;
 }

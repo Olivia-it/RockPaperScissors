@@ -80,3 +80,4 @@ function endGame() {
 } 
 
 reset.addEventListener("click", resetGame);
+
