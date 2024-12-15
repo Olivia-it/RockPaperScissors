@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    justify-self: center;
+    max-width: 500px;
+
+}
+
+#div1 {
+    justify-self: center;
+    padding: 30px 60px;
+    padding-bottom: 10px;
+    border: black 5px solid;
+    background-color: rgb(204,18,86);
+    border-radius: 30px;
+}
+
+h1 { justify-self: center;
+    padding-bottom: 20px;
+}
+
+h2 {
+    justify-self: center;
+    
+}
+
+#emoji {
+    padding: 20px;
+    font-size: 50px;
+    
+}
+
+#computer {
+    margin: 40px;
+    justify-self: center;
+    font-size: 20px;
+}
+.button {
+    font-size: 30px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 5px 30px;
+    background-color: aqua;
+    border-radius: 100px;
+}
+
+.button:hover {
+    background-color: azure;
+}
+
+#result {
+    justify-self: center;
+}
